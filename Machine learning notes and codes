@@ -1,0 +1,10 @@
+#machine learning codes 
+linear regression codes
+
+X_train=X[0;30]
+Y_train= Y[0:30]
+
+
+#model creation
+x
+def model(x)
