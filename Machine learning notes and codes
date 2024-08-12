@@ -1,10 +1,29 @@
 #machine learning codes 
 linear regression codes
 
-X_train=X[0;30]
-Y_train= Y[0:30]
+X_train=X[0:30]
+Y_train=Y[0:30]
 
 
 #model creation
-x
+w= 0.3
+b= 8
+lr=0.1
+epochs=500
 def model(x)
+  y_hat = w*x+b
+  return y_hat
+for epoch in range (epochs):
+  sum_w=0
+  sum_b=0
+  for i in range(n_train):
+    xi=x_train[i]
+    yi=y_train[i]
+    y_hat=model(x)
+    Sum_w += (yi_hat - Yi)*xi
+    Sum_b += (yi_hat - Yi)
+Grad_w = (2/n_tarin)* sum_w
+Grad_b = (2/n_train) *sum_b
+W = w-lr*grad_w
+B= b -lr* grad_b 
+  
