@@ -1,5 +1,5 @@
 #machine learning codes 
-linear regression codes
+#1. linear regression codes
 
 X_train=X[0:30]
 Y_train=Y[0:30]
@@ -27,3 +27,8 @@ Grad_b = (2/n_train) *sum_b
 W = w-lr*grad_w
 B= b -lr* grad_b 
   
+2.to pair up the study,heres the neural network code.
+#boston house price project
+from keras.dataset import bostonhousing as bh
+(x_train,y_train),(x_test, y_test)=bh.load_data() #返回两个元组
+
